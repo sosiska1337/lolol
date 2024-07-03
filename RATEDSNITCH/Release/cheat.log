@@ -1,0 +1,29 @@
+﻿  driver.cpp
+  mainn.cpp
+C:\Users\exter\Downloads\MINOKYLITE\Offsets.h(5,3): warning C4838: Преобразование из "int" в "DWORD64" требует сужающего преобразования.
+C:\Users\exter\Downloads\MINOKYLITE\Offsets.h(7,3): warning C4838: Преобразование из "int" в "DWORD64" требует сужающего преобразования.
+C:\Users\exter\Downloads\MINOKYLITE\Offsets.h(9,3): warning C4838: Преобразование из "int" в "DWORD64" требует сужающего преобразования.
+C:\Users\exter\Downloads\MINOKYLITE\Offsets.h(14,3): warning C4838: Преобразование из "int" в "DWORD64" требует сужающего преобразования.
+C:\Users\exter\Downloads\MINOKYLITE\Offsets.h(26,3): warning C4838: Преобразование из "int" в "DWORD64" требует сужающего преобразования.
+C:\Users\exter\Downloads\MINOKYLITE\Offsets.h(28,3): warning C4838: Преобразование из "int" в "DWORD64" требует сужающего преобразования.
+C:\Users\exter\Downloads\MINOKYLITE\Offsets.h(33,3): warning C4838: Преобразование из "int" в "DWORD64" требует сужающего преобразования.
+C:\Users\exter\Downloads\MINOKYLITE\mainn.cpp(637,12): warning C4477: "printf": в строке форматирования "%llX" требуется аргумент типа "unsigned __int64", но вариативный аргумент "1" имеет тип "BasePlayer *"
+C:\Users\exter\Downloads\MINOKYLITE\mainn.cpp(637,12): warning C4313: printf: конфликт "%X" в строке формата с аргументом 1 типа "BasePlayer *"
+C:\Users\exter\Downloads\MINOKYLITE\mainn.cpp(787,61): error C2664: "int MessageBoxA(HWND,LPCSTR,LPCSTR,UINT)": невозможно преобразовать аргумент 2 из "const wchar_t [18]" в "LPCSTR"
+C:\Users\exter\Downloads\MINOKYLITE\mainn.cpp(787,23): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(9153,1): message : см. объявление "MessageBoxA"
+C:\Users\exter\Downloads\MINOKYLITE\mainn.cpp(1007,5): error C2664: "int std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::compare(const _Elem *const ) noexcept const": невозможно преобразовать аргумент 1 из "CHAR [260]" в "const _Elem *const "
+          with
+          [
+              _Elem=wchar_t
+          ]
+C:\Users\exter\Downloads\MINOKYLITE\mainn.cpp(1007,35): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4400,43): message : см. объявление "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::compare"
+C:\Users\exter\Downloads\MINOKYLITE\mainn.cpp(1015,6): error C2664: "int std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::compare(const _Elem *const ) noexcept const": невозможно преобразовать аргумент 1 из "CHAR [260]" в "const _Elem *const "
+          with
+          [
+              _Elem=wchar_t
+          ]
+C:\Users\exter\Downloads\MINOKYLITE\mainn.cpp(1015,36): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4400,43): message : см. объявление "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::compare"
+  Создание кода...

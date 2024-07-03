@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="mainn.cpp" />
+    <ClCompile Include="driver.cpp">
+      <Filter>driver</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Offsets.h" />
+    <ClInclude Include="sdk\game_sdk.h" />
+    <ClInclude Include="sdk_new\math.h" />
+    <ClInclude Include="vars\vars.h" />
+    <ClInclude Include="driver.h">
+      <Filter>driver</Filter>
+    </ClInclude>
+    <ClInclude Include="lock.h">
+      <Filter>driver</Filter>
+    </ClInclude>
+    <ClInclude Include="server_shared.h">
+      <Filter>driver</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat_funcs\AimFuncs.h">
+      <Filter>Funcs</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat_funcs\MiscFuncs.h">
+      <Filter>Funcs</Filter>
+    </ClInclude>
+    <ClInclude Include="junk.h">
+      <Filter>driver</Filter>
+    </ClInclude>
+    <ClInclude Include="xorstr.h" />
+    <ClInclude Include="UpdateOffsets.h" />
+    <ClInclude Include="xor.h" />
+    <ClInclude Include="instr.h" />
+    <ClInclude Include="megaxor.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="driver">
+      <UniqueIdentifier>{3e319b24-3b33-4455-bf78-6361e4a142f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Funcs">
+      <UniqueIdentifier>{4467bd3c-f64f-4b4e-9161-b24dc407c8be}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="cheat.rc">
+      <Filter>Funcs</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
